@@ -1,0 +1,17 @@
+			///**\\\ Treaps implementaion to search a word from a big list effectively///**\\\
+
+This is an implementation using treaps.Initially it loads the words from file to treap.
+But after that it takes only O(L) time to search a word in the treap 
+
+*** Time Complexity : O(L)
+; where L is the no. of characters in the word.
+
+*** NOTE:: Place all the words in words.txt file and store that file in the location where the main code is stored.
+
+*** USES: For frequent queries at a search engine or other such stuff where string is to be matched frequently, hence fast.
+
+
+*** Implementation:
+All the words will be loaded in the treap when program is executed.
+
+You can search the word you want,if it matches then "matched" will be displayed.
